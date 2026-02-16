@@ -1,25 +1,6 @@
-(format
-  "%" @punctuation.special
-  (type) @character.special
-)
+(format) @string.escape
 
-(format
-  (flags) @attribute
-)
-
-(format
-  (width) @number
-)
-
-(format
-  (precision) @number
-)
-
-(format
-  (size) @keyword
-)
+"%%"  @string.escape
+(escape_sequence) @string.escape
 
 (text) @string
-
-"%%" @string.escape
-(escape_sequence) @string.escape
