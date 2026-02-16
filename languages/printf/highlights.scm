@@ -22,3 +22,4 @@
 (text) @string
 
 "%%" @string.escape
+(escape_sequence) @string.escape
