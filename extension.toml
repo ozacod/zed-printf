@@ -8,4 +8,4 @@ repository = "https://github.com/ozacod/zed-printf"
 
 [grammars.printf]
 repository = "https://github.com/ozacod/tree-sitter-printf"
-commit = "d25c5c1e08286d39cbf9391b75f0bf07fb2cfa67"
+commit = "89110625333e3658d24c23ac8dc7309578f44613"
